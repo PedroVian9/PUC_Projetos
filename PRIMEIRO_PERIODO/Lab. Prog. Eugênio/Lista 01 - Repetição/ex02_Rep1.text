@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+int main()
+ {
+	 int i = 0;
+	int N = 0;
+	std::cout<<"Digite o número que deseja calcular: ";
+	std::cin>> N;
+
+	while (i <= 10)
+	{
+		i = i + i;
+		std::cout<<i * N<<'\n';
+	}	
+	
+}

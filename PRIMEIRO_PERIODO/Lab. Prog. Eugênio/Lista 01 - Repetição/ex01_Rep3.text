@@ -1,0 +1,19 @@
+#include <iostream>
+ 
+int main()
+ {
+	int N = 0;
+	int fat = 1;
+	int aux = 0;
+	std::cout<<"Digite um número: ";
+	std::cin>>N;
+	aux = N;
+
+	do
+	{
+		fat = fat * aux;
+		aux = aux - 1;
+	}
+	while(aux > 1);	
+	std::cout<<"O valor fatorial é: "<<fat<<'\n';
+}

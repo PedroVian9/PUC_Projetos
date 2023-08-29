@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>782</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>781</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;DADO: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditCaminhoArquivo">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonBuscar">
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Buscar Sequencial - Nome</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Busca Sequencial - Matricula</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Busca Binária - Nome</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Busca Sequencial - Matrícula</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>761</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>155</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>MATRÍCULA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NOME</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DEPARTAMENTO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TITULAÇÃO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TIPO DE CONTATO</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>541</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;FORMAS DE ORDENAÇÃO:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <item>
+        <property name="text">
+         <string>MATRÍCULA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NOME</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DEPARTAMENTO - NOME</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TITULAÇÃO - NOME</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TIPO DE CONTRATO - NOME</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DEPARTAMENTO - TITULAÇÃO - NOME</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DEPARTAMENTO - TIPO DE CONTRATO - NOME</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>782</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

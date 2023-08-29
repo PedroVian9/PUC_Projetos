@@ -1,0 +1,52 @@
+#include <iostream>
+
+int main()
+{
+    int n1 = 0;
+    int n2 = 0;
+    std::string simbolo = " ";
+    int conta;
+    
+    std::cout<<"\nDigite o primeiro número: ";
+    std::cin>>n1;
+    std::cout<<"Digite o segundo número: ";
+    std::cin>>n2;
+    
+    for (int i = 0; i < 3; i++)
+	{
+		std::cout<<"\n1 - (+)\n";
+		std::cout<<"2 - (-)\n";
+		std::cout<<"3 - (*)\n";
+		std::cout<<"4 - (/)\n";
+		std::cout<<"Selecione um dos símbolos para realizar a operação: ";
+		std::getline(std::cin, simbolo);
+		
+		if (simbolo == "+")
+		{
+			conta = n1 + n2;
+			std::cout<<"\nO resultado é: "<<conta;
+		}
+		if (simbolo == "-")
+		{
+			conta = n1 - n2;
+			std::cout<<"\nO resultado é: "<<conta;
+		}
+		if (simbolo == "*")
+		{
+			conta = n1 * n2;
+			std::cout<<"\nO resultado é: "<<conta;
+		}
+		if (simbolo == "/")
+		{
+			conta = n1 / n2;
+			std::cout<<"\nO resultado é: "<<conta;
+		}
+		if (simbolo != "+" && simbolo != "-" && simbolo != "*" && simbolo !="/" && simbolo != " " )
+		{
+			std::cout<<"Símbolo inexistente\n";
+		}
+		
+		
+	}
+	
+}
