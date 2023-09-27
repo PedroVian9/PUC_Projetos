@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>521</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700;&quot;&gt;CONVERSOR DE BASES DECIMAIS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numConvert">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>111</y>
+      <width>108</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>271</x>
+      <y>111</y>
+      <width>51</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Número:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="baseBin">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>160</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Binário</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="baseHexa">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>160</y>
+      <width>94</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hexadecimal</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="baseOctal">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>160</y>
+      <width>53</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Octal</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="saida">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>220</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>190</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Executar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuConversor_de_bases">
+    <property name="title">
+     <string>Conversor de bases</string>
+    </property>
+   </widget>
+   <addaction name="menuConversor_de_bases"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
